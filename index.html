@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">KWIATKI</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">O nas</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__links" id="services-page">Usługi</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#katalog" class="button" id="catalogue">Katalog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <div class="hero" id="home">
+
+
+        <div class="glass_container">
+            <div class="hero__container">
+                <h1 class="hero__heading">Kwiaty na zamówienie
+                    <!--<span>colours</span>--></h1>
+                <p class="hero__description">Na zamówienie</p>
+                <button class="main__btn"><a href="#">Zobacz więcej</a></button> </div>
+
+        </div>
+    </div>
+    <!-- about -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"></div>
+            </div>
+            <div class="main__content">
+                <h2>Co robimy?</h2>
+                <h1>Lorem Ipsum.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="main__btn"><a href="#">Kontakt</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+        <h1>Rodzaje kwiatków</h1>
+        <div class="services__wrapper">
+            <div class="services__card">
+                <h2>Tulipany</h2>
+                <p>Różne kolory</p>
+                <div class="services__btn">
+                    <button>Zobacz więcej</button>
+                </div>
+            </div>
+
+
+            <div class="services__card">
+                <h2>Chryzantemy</h2>
+                <p>Lorem Ipsum</p>
+                <div class="services__btn">
+                    <button>Zobacz więcej</button>
+                </div>
+
+            </div>
+
+
+
+            <div class="services__card">
+                <h2>Dalie</h2>
+                <p>Lorem Ipsum</p>
+                <div class="services__btn">
+                    <button>Zobacz więcej</button>
+                </div>
+            </div>
+            <div class="services__card">
+                <h2>Inne kwiatki</h2>
+                <p>Lorem Ipsum</p>
+                <div class="services__btn">
+                    <button>Zobacz więcej</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Contact section -->
+
+    <div class="contact" id="contact">
+        <div class="contact__container">
+            <div class="contact__content">
+                <h1>Kontakt</h1>
+                <h2>Ul.Kwiatkowa 2, Szczecin <br><br> E-mail: kwiatki@eu.pl <br> Tel. 123 456 789
+                </h2>
+                <p>Możesz również wysłać nam swoją ofertę:</p>
+
+
+                <form action="">
+                    <input class="contact__btn" type="file" id="document" name="filename" hidden/>
+                    <label class="contact__btn--label" for="document">Wybierz dokument</label>
+                    <span id="file-chosen">Nie wybrano</span>
+
+                </form>
+
+            </div>
+            <div class="main__img--container">
+                <div class="main__img--card" id="card-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ask questions section -->
+
+    <div class="questions" id="questions">
+        <div class="questions__container">
+            <div class="questions__content">
+                <h1>Zadaj pytanie</h1>
+                <h2>Skontaktuj się z nami poprzez formularz</h2>
+            </div>
+            <div class="questions__input">
+                <form>
+                    <label for="user-mail">Twój adres e-mail</label><br>
+                    <input type="email" name="user-mail" id="user-mail"><br>
+                    <label for="question">Twoja wiadomość </label><br>
+                    <textarea id="question" placeholer="Write something..."></textarea><br>
+                    <button class="main__btn"><a href="#">Wyślij</a></button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer__container">
+        <div class="footer__links">
+
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About us</h2>
+                    <a href="/sign-up">How it works</a>
+                    <a href="/sign-up">Testimonials</a>
+                    <a href="/sign-up">Careers</a>
+                    <a href="/sign-up">Terms of services</a>
+                </div>
+
+                <div class="footer__link--items">
+                    <h2>Videos</h2>
+                    <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+                    <a href="/">Agency</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a> <a href="/">Facebook</a>
+                </div>
+            </div>
+
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">Kwiatki</a>
+                </div>
+                <p class="website__rights">© Kwiatki 2022. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
